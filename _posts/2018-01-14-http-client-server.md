@@ -129,7 +129,7 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 
 다음에 오는 것들이 헤더입니다. 헤더 각각에 대한 내용은 다루지 않고 헤더가 어떻게 구성되는 지에 대해 알아보도록 하겠습니다. GET 방식의 HTTP 요청은 요청 라인만 있어도 충분하지만, 일반적으로 클라이언트는 헤더에 추가 정보들을 담아서 서버에 요청합니다. 각 라인은 위에서 보이는 바와 같이 `Keyword: Value` 형식으로 되어있습니다. 키워드(Keyword)는 대소문자를 구분하지 않습니다. 그러나 값(Value)는 경우에 따라 대소문자를 구분하기도 합니다. 키워드와 값 둘 모두 아스키만 허용하며, 값이 너무 긴 경우 다음 줄의 시작 위치에 스페이스나 탭을 입력한 뒤 계속해서 입력할 수 있습니다. 헤더의 각 `Keyword: Value` 는 캐리지리턴과 라인피드의 쌍(\r\n)으로 끝납니다.
 
-요청의 끝은 하나의 빈 줄로 끝납니다. 즉, 두 번의 캐리지리턴, 파인피드 쌍(\r\n\r\n)으로 끝납니다.
+요청의 끝은 하나의 빈 줄로 끝납니다. 즉, 두 번의 캐리지리턴, 라인피드 쌍(\r\n\r\n)으로 끝납니다.
 
 
 
@@ -214,10 +214,10 @@ HTTP에 대해 조금 더 나아가기 위한 자료로는 [MDN 문서](https://
 
 # 참고 자료 
 
-- 위키백과, "HTTP", https://ko.wikipedia.org/wiki/HTTP 
-- 네이버 사전, 프로토콜, http://krdic.naver.com/detail.nhn?docid=41018500
-- 위키백과, "클라이언트 서버 모델", https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8_%EC%84%9C%EB%B2%84_%EB%AA%A8%EB%8D%B8
-- 텀즈, client/server ; 클라이언트/서버, http://www.terms.co.kr/clientserver.htm
+- [위키백과, "HTTP"](https://ko.wikipedia.org/wiki/HTTP)
+- [네이버 사전, 프로토콜](http://krdic.naver.com/detail.nhn?docid=41018500)
+- [위키백과, "클라이언트 서버 모델"](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8_%EC%84%9C%EB%B2%84_%EB%AA%A8%EB%8D%B8)
+- [텀즈, client/server ; 클라이언트/서버](http://www.terms.co.kr/clientserver.htm)
 - 앨리엇 러스티 해럴드 지음, 자바 네트워크 프로그래밍, 강성용 옮김, p211-p232
-- MDN web docs, HTTP 개요, https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
+- [MDN web docs, HTTP 개요](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 
