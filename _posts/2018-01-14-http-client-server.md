@@ -2,7 +2,7 @@
 layout: post
 title: "HTTP 이해하기"
 date: 2018-01-14
-author: 박태민
+author: "박태민"
 ---
 
 # HTTP 이해하기
