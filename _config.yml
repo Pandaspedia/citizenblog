@@ -16,8 +16,6 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Contact(blocked)
-   url: /index.html
 
 social:
    github: ybigta-web-dev
