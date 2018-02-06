@@ -491,7 +491,7 @@ CLEAR AFTER FLOATS
 BUTTON DEFAULTS
 ***************/
 .button, .button-secondary, .button-tertiary, .button__outline {
-  background-color: seagreen;
+  background-color: #111;
   display: inline-block;
   position: relative;
   font-family: "Spoqa Han Sans", "Open Sans", Helvetica, Arial, sans-serif;
@@ -525,10 +525,10 @@ BUTTON DEFAULTS
 
 .button__outline {
   background-color: transparent;
-  border: 3px solid seagreen;
-  color: seagreen; }
+  border: 3px solid #111;
+  color: #111; }
   .button__outline:hover {
-    background-color: seagreen;
+    background-color: #111;
     color: #fff; }
 
 /***************
@@ -802,7 +802,7 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 .header {
-  background-color: seagreen;
+  background-color: #111;
   background-image: url("../img/touring.jpg");
   background-size: cover;
   background-position: center center;
@@ -883,7 +883,7 @@ POST STYLING
   margin-bottom: 2rem; }
 
 .post .dropcap {
-  color: seagreen;
+  color: #111;
   margin-right: .45rem; }
 
 .post .featuredImage {
