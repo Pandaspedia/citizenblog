@@ -1,8 +1,8 @@
 title: Ybigta Web-dev project
 description: Ybigta Web dev project
 
-url: https://ybigta-web-dev.github.io
-baseurl: "citizenblog"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/citizenblog"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
