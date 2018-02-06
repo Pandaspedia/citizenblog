@@ -843,7 +843,7 @@ POST STYLING
     content: "";
     position: absolute;
     top: -1.25em;
-    background: seagreen;
+    background: gray;
     display: block;
     height: 2px;
     width: 150px;
@@ -852,7 +852,7 @@ POST STYLING
     content: "";
     position: absolute;
     bottom: -1.25em;
-    background: seagreen;
+    background: gray;
     display: block;
     height: 2px;
     width: 150px;
