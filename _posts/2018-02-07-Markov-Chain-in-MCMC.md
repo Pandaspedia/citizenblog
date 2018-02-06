@@ -2,7 +2,7 @@
 layout: post
 title: "Markov Chain in MCMC : 커튼 뒤 숨은 강아지 찾기"
 date: 2018-02-07
-author: 김시민
+author:
 ---
 
 
