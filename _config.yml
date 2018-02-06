@@ -2,7 +2,7 @@ title: Ybigta Web-dev project
 description: Ybigta Web dev project
 
 url: https://ybigta-web-dev.github.io
-baseurl: ""
+baseurl: "citizenblog"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
