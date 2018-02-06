@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About us
+title: About me
 ---
 
 <div class="post">
