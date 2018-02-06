@@ -1,7 +1,12 @@
+---
+layout: post
+title: "Markov Chain in MCMC : 커튼 뒤 숨은 강아지 찾기"
+date: 2018-02-07
+author: 김시민
+---
 
 
-
-### MCMC에서의 Markov Chain : 커튼 뒤에 숨은 강아지 찾기
+### MCMC에서의 Markov Chain : 커튼 뒤 숨은 강아지 찾기
 이 포스트에서는 MCMC 샘플링에서 Markov Chain가 왜 쓰이는지에 대해, 수식이 아닌 직관적인 예시를 통해 이해해보고자 합니다.
 
 우선, Markov Chain이 무엇인지 알아보겠습니다.
